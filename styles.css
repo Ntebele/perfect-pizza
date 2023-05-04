@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text{
+    text-align: center;
+}
+
+.medium_pizza {
+    background-color: #00bbf9;
+}
+
+.large_pizza {
+    background-color: #d52941;
+}
+
+.small_pizza {
+    background-color: #f4e409;
+}
+
+.contacts {
+    background-color: #70ae6e;
+}
+
+.box {
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+@media(min-width: 768px) {
+    body {
+        background-color: white
+    };
+}
+@media(min-width: 960px) {
+
+    .pizzas {
+        display: flex
+    };
+}
+
+.price{
+    display: flex;
+}
+
+
